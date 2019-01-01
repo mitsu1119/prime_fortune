@@ -12,7 +12,7 @@ def MR(n):
 
     d = (n - 1) >> 1
     while d & 1 == 0:
-        d /= 2
+        d //= 2
 
     for i in range(100):
         a = random.randint(1, n - 1)
